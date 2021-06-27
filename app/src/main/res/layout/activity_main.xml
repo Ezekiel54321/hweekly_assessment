@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:fontFamily="cursive"
+        android:text="App Cloud"
+        android:textColor="#07a4ed"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textStyle="bold"
+        android:layout_weight="0"
+        android:ems="15"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_margin="20dp"
+        android:ems="15"
+        android:textStyle="bold"
+        android:hint="Password"
+        android:layout_below="@+id/usernameET"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:background="@color/teal_700"
+        />
+
+
+</LinearLayout>
